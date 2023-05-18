@@ -1,3 +1,4 @@
+import 'package:ask_ai/open_ai.dart';
 import 'package:dart_openai/openai.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
@@ -14,7 +15,7 @@ void main() {
   setupDialogUi();
   setupBottomSheetUi();
   WidgetsFlutterBinding.ensureInitialized();
-  OpenAI.apiKey = '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';
+  OpenAI.apiKey = yourAPIKey;
   runApp(const MyApp());
 }
 
