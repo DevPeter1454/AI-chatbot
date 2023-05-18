@@ -12,7 +12,7 @@ migrate_working_dir/
 
 lib/openai.dart
 lib/env
-
+.env
 # IntelliJ related
 *.iml
 *.ipr
